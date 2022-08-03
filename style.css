@@ -1,0 +1,66 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .project-main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Roboto,sans-serif;
+        background: #fff;
+
+    }
+
+.project-result-tabel{
+    margin-top: 8rem;
+    width: 80%;
+    border-collapse: collapse;
+    height: max-content;
+}
+.project-tabel-item{
+    padding: .8rem;
+}
+.project-tabel-header th{
+    border: none;
+}
+.project-tabel-header{
+    background: #343A40;
+    color: #fff;
+}
+.project-tabel-item-id{
+    padding: .8rem 0;
+    padding-left: 1rem;
+}
+
+.project-result-tabel td{
+    border-top: 1px solid #dee2e6;
+}
+
+.project-result-tabel td, th {
+  text-align: left;
+
+}
+.project-result-tabel tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.pagination-container{
+    margin-top:3rem ;
+    width: 80%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-container button{
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
